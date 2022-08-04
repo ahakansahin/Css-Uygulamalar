@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Attachment</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #bg-1 {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background: linear-gradient(rgba(0, 102, 34, 0.3), rgba(0, 102, 34, 0.3)),
+                url(../Resimler\ ve\ Videolar/bg-1.jpeg);
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+
+        }
+
+        #bg-1>span {
+            font-size: 30px;
+            font-weight: bold;
+            color: white;
+            background-color: black;
+            border-radius: 20px;
+            padding: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+        }
+
+        p {
+            color: gray;
+            padding: 50px 80px;
+            text-align: center;
+            
+        }
+
+        p::first-letter {
+            padding-left: 50px;
+        }
+
+        h1 {
+            margin: 30px auto 0px auto;
+            text-align: center;
+        }
+
+        #bg-2 {
+            position: relative;
+            width: 100%;
+            height: 60vh;
+            background: linear-gradient(rgba(0, 51, 204, 0.3), rgba(0, 51, 204, 0.3)),
+                url(../Resimler\ ve\ Videolar/bg-2.jpeg);
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+
+        }
+
+        #bg-2>span {
+            font-size: 30px;
+            font-weight: bold;
+            color: white;
+            background-color: black;
+            border-radius: 20px;
+            padding: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+        }
+
+        #bg-3 {
+            position: relative;
+            width: 50%;
+            height: 50vh;
+            background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+                url(../Resimler\ ve\ Videolar/bg-3.jpeg);
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            margin: auto;
+
+
+
+        }
+
+        #bg-3>span {
+            font-size: 30px;
+            font-weight: bold;
+            color: white;
+            background-color: black;
+            border-radius: 20px;
+            padding: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+        }
+        
+        
+    </style>
+</head>
+
+<body>
+    <div id="bg-1">
+        <span>Yeşillik Yazısı</span>
+    </div>
+
+    <div>
+        <h1>Lorem Yeşillik</h1>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. In et inventore itaque iusto laboriosam.
+            Accusantium ipsum magni ex! Harum dicta, saepe quo velit ut nesciunt obcaecati soluta, quia sit pariatur
+            eum, inventore commodi adipisci exercitationem quibusdam impedit vero. Ipsa commodi consequatur, qui
+            recusandae eos quas natus eum alias praesentium incidunt minus debitis cupiditate ducimus optio deleniti.
+            Consequuntur doloremque, exercitationem necessitatibus officia dolore eaque harum nisi reiciendis. Modi
+            nobis nostrum quia nesciunt cum ea laborum perferendis itaque accusamus inventore! Exercitationem
+            reprehenderit soluta ea vero hic ad ab voluptas numquam dolores fuga tempora architecto consequuntur labore,
+            eligendi ut iste corporis doloremque, sint earum repellat modi minus iure possimus? Deserunt ex consequatur
+            quisquam neque nemo sint totam, amet necessitatibus similique adipisci commodi. Excepturi quasi dolorem
+            maiores hic reprehenderit unde dignissimos harum totam ea, odio cumque ipsa itaque ullam iusto molestias.
+            Maxime quos, quis molestias architecto sequi explicabo iure minus debitis rerum. A quam nisi sapiente rerum
+            perspiciatis cupiditate officia autem corrupti, hic provident ullam unde corporis cumque nesciunt quaerat,
+            blanditiis tempora assumenda vel consectetur sequi dolor atque numquam. Illo sapiente accusamus fuga dolor
+            exercitationem dolore molestias tempora maxime autem consectetur laudantium sit perspiciatis, quisquam
+            fugiat veritatis. Deleniti, et modi dolore iste cupiditate ipsa.</p>
+    </div>
+
+    <div id="bg-2">
+        <span>Yunus Yazısı</span>
+    </div>
+
+    <div>
+        <h1>Lorem Yeşillik</h1>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. In et inventore itaque iusto laboriosam.
+            Accusantium ipsum magni ex! Harum dicta, saepe quo velit ut nesciunt obcaecati soluta, quia sit pariatur
+            eum, inventore commodi adipisci exercitationem quibusdam impedit vero. Ipsa commodi consequatur, qui
+            recusandae eos quas natus eum alias praesentium incidunt minus debitis cupiditate ducimus optio deleniti.
+            Consequuntur doloremque, exercitationem necessitatibus officia dolore eaque harum nisi reiciendis. Modi
+            nobis nostrum quia nesciunt cum ea laborum perferendis itaque accusamus inventore! Exercitationem
+            reprehenderit soluta ea vero hic ad ab voluptas numquam dolores fuga tempora architecto consequuntur labore,
+            eligendi ut iste corporis doloremque, sint earum repellat modi minus iure possimus? Deserunt ex consequatur
+            quisquam neque nemo sint totam, amet necessitatibus similique adipisci commodi. Excepturi quasi dolorem
+            maiores hic reprehenderit unde dignissimos harum totam ea, odio cumque ipsa itaque ullam iusto molestias.
+            Maxime quos, quis molestias architecto sequi explicabo iure minus debitis rerum. A quam nisi sapiente rerum
+            perspiciatis cupiditate officia autem corrupti, hic provident ullam unde corporis cumque nesciunt quaerat,
+            blanditiis tempora assumenda vel consectetur sequi dolor atque numquam. Illo sapiente accusamus fuga dolor
+            exercitationem dolore molestias tempora maxime autem consectetur laudantium sit perspiciatis, quisquam
+            fugiat veritatis. Deleniti, et modi dolore iste cupiditate ipsa.</p>
+    </div>
+
+    <div id="bg-3">
+        <span>Yıldırım Yazısı</span>
+    </div>
+
+    <div>
+        <h1>Lorem Yıldırım</h1>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. In et inventore itaque iusto laboriosam.
+            Accusantium ipsum magni ex! Harum dicta, saepe quo velit ut nesciunt obcaecati soluta, quia sit pariatur
+            eum, inventore commodi adipisci exercitationem quibusdam impedit vero. Ipsa commodi consequatur, qui
+            recusandae eos quas natus eum alias praesentium incidunt minus debitis cupiditate ducimus optio deleniti.
+            Consequuntur doloremque, exercitationem necessitatibus officia dolore eaque harum nisi reiciendis. Modi
+            nobis nostrum quia nesciunt cum ea laborum perferendis itaque accusamus inventore! Exercitationem
+            reprehenderit soluta ea vero hic ad ab voluptas numquam dolores fuga tempora architecto consequuntur labore,
+            eligendi ut iste corporis doloremque, sint earum repellat modi minus iure possimus? Deserunt ex consequatur
+            quisquam neque nemo sint totam, amet necessitatibus similique adipisci commodi. Excepturi quasi dolorem
+            maiores hic reprehenderit unde dignissimos harum totam ea, odio cumque ipsa itaque ullam iusto molestias.
+            Maxime quos, quis molestias architecto sequi explicabo iure minus debitis rerum. A quam nisi sapiente rerum
+            perspiciatis cupiditate officia autem corrupti, hic provident ullam unde corporis cumque nesciunt quaerat,
+            blanditiis tempora assumenda vel consectetur sequi dolor atque numquam. Illo sapiente accusamus fuga dolor
+            exercitationem dolore molestias tempora maxime autem consectetur laudantium sit perspiciatis, quisquam
+            fugiat veritatis. Deleniti, et modi dolore iste cupiditate ipsa.</p>
+    </div>
+
+</body>
+
+</html>
